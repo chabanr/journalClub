@@ -8,6 +8,7 @@ Created on Thu Apr 25 22:29:04 2019
 from django.urls import path
 from . import views
 
+app_name = 'polls'
 urlpatterns = [
         # examples: /polls/
         path('', views.index, name='index'),
